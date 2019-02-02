@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="mr-july/android_device_xiaomi_gemini" path="device/xiaomi/gemini" remote="mr-july" />
+  <project name="mr-july/Resurrection_packages_apps_Settings" path="packages/apps/Settings" remote="mr-july" />
+</manifest>
+
