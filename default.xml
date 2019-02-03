@@ -13,6 +13,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-9.0.0_r30" />
 
+  <remote  name="mr-july"
+           fetch="https://github.com/"
+           revision="pie" />
+
   <default revision="refs/heads/lineage-16.0"
            remote="github"
            sync-c="true"
@@ -677,6 +681,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/rr.xml" />
+  <include name="snippets/mr-july.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
